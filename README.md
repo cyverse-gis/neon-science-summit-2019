@@ -1,7 +1,7 @@
 # neon-science-summit-2019
 Example Notebooks for NEON Science Summit
 
-# CyVerse VICE
+# Run analyses using CyVerse VICE
 
 (1) Register for CyVerse https://user.cyverse.org/
 
@@ -20,3 +20,26 @@ Requires [Planet Labs Account](https://planet.com) with API Key
 ```
 git clone https://github.com/cyverse-gis/neon-science-summit-2019
 ```
+
+## Run Shiny app in CyVerse
+
+Select the NEON-Shiny-Browser App in CyVerse.
+
+Browse and download data to the Data Store.
+
+View downloaded data in your home folder `/analyses`
+
+## Run Shiny app with Docker locally or on a Virtual Machine
+
+To run the Shiny-Server, you must first `pull` from DockerHub, 
+
+```
+docker pull cyversevice/shiny-geospatial:neon-shiny-browser
+```
+
+Or just run the app:
+
+```
+docker run -it --rm -p 3838:3838 -e REDIRECT_URL=http://localhost:3838 -v ~/NEON_Downloads:/NEON_Downloads cyversevice/shiny-geospatial:neon-shiny-browser
+```
+
