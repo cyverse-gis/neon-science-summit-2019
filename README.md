@@ -1,7 +1,7 @@
 # neon-science-summit-2019
-Example Notebooks for NEON Science Summit
+Example Notebooks for NEON Science Summit Planet Labs breakout session
 
-# Run analyses using CyVerse VICE
+# Run spatial analyses using CyVerse VICE
 
 (1) Register for CyVerse https://user.cyverse.org/
 
@@ -15,13 +15,37 @@ Requires [Planet Labs Account](https://planet.com) with API Key
 
 <a href="https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=25862506-3ffe-4867-8e2b-664d9df47ce3&app-id=0c91c2b0-eab9-11e9-a785-008cfa5ae621" target="_blank"><img src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg"></a>
 
-# Copy files
+# Copy samples
 
 Clone this repository into the running instance
 
 ```
 git clone https://github.com/cyverse-gis/neon-science-summit-2019
 ```
+
+## Run Shiny app in RStudio
+
+Clone the repository to your computer or VM
+
+```
+git clone https://github.com/cyverse-gis/neon-shiny-browser
+```
+
+Change your RStudio working directory to the downloaded location
+
+```
+getwd()
+setwd("~/neon-shiny-browser")
+```
+
+Load the Shiny Library and run the app
+
+```
+library(shiny)
+runApp()
+```
+
+Note - you may need to install additional dependencies for the app on your local computer first.
 
 ## Run Shiny app in CyVerse
 
@@ -33,7 +57,7 @@ View downloaded data in your home folder `/analyses`
 
 ## Run Shiny app with Docker locally or on a Virtual Machine
 
-To run the Shiny-Server, you must first `pull` from DockerHub, 
+Download from DockerHub:
 
 ```
 docker pull cyversevice/shiny-geospatial:neon-shiny-browser
