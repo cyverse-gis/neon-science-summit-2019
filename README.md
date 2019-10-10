@@ -15,7 +15,9 @@ Requires [Planet Labs Account](https://planet.com) with API Key
 
 <a href="https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=25862506-3ffe-4867-8e2b-664d9df47ce3&app-id=0c91c2b0-eab9-11e9-a785-008cfa5ae621" target="_blank"><img src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg"></a>
 
-(3) Clone this repository into the running instance
+# Copy files
+
+Clone this repository into the running instance
 
 ```
 git clone https://github.com/cyverse-gis/neon-science-summit-2019
