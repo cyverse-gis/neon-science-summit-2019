@@ -23,6 +23,8 @@ Clone this repository into the running instance
 git clone https://github.com/cyverse-gis/neon-science-summit-2019
 ```
 
+# Downloading NEON Data with R Shiny
+
 ## Run Shiny app in RStudio
 
 Clone the repository to your computer or VM
@@ -69,3 +71,21 @@ Or just run the app:
 docker run -it --rm -p 3838:3838 -e REDIRECT_URL=http://localhost:3838 -v ~/NEON_Downloads:/NEON_Downloads cyversevice/shiny-geospatial:neon-shiny-browser
 ```
 
+# Downloading Planet Labs data with Jupyter Lab 
+
+## Run Jupyter Lab on your own computer
+
+You will need to install numerous dependencies for running the Lab
+
+## Run Jupyter Lab with Docker
+
+```
+docker run -it --rm -v /$HOME:/app --workdir /app -p 8888:8888 -e REDIRECT_URL=http://localhost:8888 cyversevice/jupyterlab-scipy:planet-latest
+```
+
+Note you may need to mount the location of your NEON Data when you start the container
+
+```
+-v ~/NEON_Downloads:/NEON_Downloads
+```
+## Run Jupyter Lab with CyVerse
