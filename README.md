@@ -91,4 +91,4 @@ Steps:
 
 Note: Access to Planet data requires a [Planet Labs Account](https://planet.com) 
 
-<a href="https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=25862506-3ffe-4867-8e2b-664d9df47ce3&app-id=0c91c2b0-eab9-11e9-a785-008cfa5ae621" target="_blank"><img src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg"></a>
+<a href="https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=067d4a4b-bedb-4034-baba-2f59c15e0463&app-id=1d35dc48-eb93-11e9-b6b7-008cfa5ae621" target="_blank"><img src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg"></a>
