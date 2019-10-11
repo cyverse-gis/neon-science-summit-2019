@@ -83,12 +83,11 @@ Steps:
 
 (1) Register for CyVerse https://user.cyverse.org/
 
-(2) Log into the Discovery Environment: https://de.cyverse.orgh
+(2) Log into the Discovery Environment: https://de.cyverse.org
 
 (3) Open the Apps tab and search for "Jupyter" or "Planet" and find the corresponding public apps
 
-(4a) Launch a Jupyter Lab with Planet Labs and Google Earth Engine tools pre-built 
+(4) Launch a Jupyter Lab with Planet Labs and Google Earth Engine tools pre-built 
 
-Note: Access to Planet data requires a [Planet Labs Account](https://planet.com) 
-
+Or
 <a href="https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=067d4a4b-bedb-4034-baba-2f59c15e0463&app-id=1d35dc48-eb93-11e9-b6b7-008cfa5ae621" target="_blank"><img src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg"></a>
