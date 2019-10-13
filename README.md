@@ -88,3 +88,5 @@ Steps:
 (3) Open the Apps tab and search for "Jupyter Lab Planet" and find the corresponding public app, or use this Quick Launch <a href="https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=3915f0c6-d817-40b3-8475-2a7b93d928a8&app-id=1d35dc48-eb93-11e9-b6b7-008cfa5ae621" target="_blank"><img src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg"></a>
 
 
+
+<p align="center"><img src='https://github.com/cyverse-gis/neon-science-summit-2019/blob/master/gif/DE_launch.gif?raw=true' width='750'></p>
