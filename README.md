@@ -1,39 +1,37 @@
 # neon-science-summit-2019
 Example Notebooks for NEON Science Summit Planet Labs breakout session
 
-# Copy samples
+# Cloning a GitHub Repository
 
-Clone this repository into the running instance
+Clone this repository - there are example .ipynb notebooks for you to work with. 
 
 ```
 git clone https://github.com/cyverse-gis/neon-science-summit-2019
 ```
 
-# Find and get NEON Data with R Shiny
+# Find and download NEON data with our R Shiny App
 
-## Run Shiny app in RStudio
+## Run the Shiny app in RStudio
 
-Clone the repository to your computer or VM
+Clone the Shiny App repository 
 
 ```
 git clone https://github.com/cyverse-gis/neon-shiny-browser
 ```
 
-Change your RStudio working directory to the downloaded location
+Change your RStudio working directory to the location of the app:
 
 ```
 getwd()
 setwd("~/neon-shiny-browser")
 ```
 
-Load the Shiny Library and run the app
+Load Shiny and run the app (note - the app has numerous spatial dependencies which must also be installed if running on a local machine, this can take some time).
 
 ```
 library(shiny)
 runApp()
 ```
-
-Note - you may need to install additional dependencies for the app on your local computer first.
 
 ## Run Shiny app in CyVerse
 
