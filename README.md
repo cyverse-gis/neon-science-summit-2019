@@ -33,6 +33,8 @@ library(shiny)
 runApp()
 ```
 
+<p align="center"><img src='https://github.com/cyverse-gis/neon-science-summit-2019/blob/master/gif/RStudio_NEON_Shiny.gif?raw=true' width='750'></p>
+
 ## Run Shiny app in CyVerse
 
 Select the NEON-Shiny-Browser App in CyVerse.
