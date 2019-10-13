@@ -90,4 +90,4 @@ Steps:
 (4) Launch a Jupyter Lab with Planet Labs and Google Earth Engine tools pre-built 
 
 Or
-<a href="https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=067d4a4b-bedb-4034-baba-2f59c15e0463&app-id=1d35dc48-eb93-11e9-b6b7-008cfa5ae621" target="_blank"><img src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg"></a>
+<a href="https://auth.cyverse.org/cas5/login?type=quick-launch&quick-launch-id=067d4a4b-bedb-4034-baba-2f59c15e0463&app-id=1d35dc48-eb93-11e9-b6b7-008cfa5ae621&service=https%3A%2F%2Fde.cyverse.org%2Fde%2Fiplant-cas-ticket-validator" target="_blank"><img src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg"></a>
