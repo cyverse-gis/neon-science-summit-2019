@@ -9,7 +9,7 @@ Clone this repository into the running instance
 git clone https://github.com/cyverse-gis/neon-science-summit-2019
 ```
 
-# Downloading NEON Data with R Shiny
+# Find and get NEON Data with R Shiny
 
 ## Run Shiny app in RStudio
 
